@@ -223,10 +223,10 @@ body {
   padding: 15px;
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
   background-image: url('../images/arrow.png');
+  background-repeat: no-repeat;
 }
 
 #topbutton:hover {
   background-color: rgb(32, 32, 32);
   background-image: url('../images/arrowhover.png');
 }
-
