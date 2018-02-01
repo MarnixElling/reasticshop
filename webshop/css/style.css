@@ -119,10 +119,12 @@ body {
     width: 90%;
     height: 500px;
     border: 1px solid;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
   }
 
   .paypalbutton:hover {
     opacity: 0.8;
+    cursor: pointer;
   }
 
   .categories {
@@ -153,20 +155,36 @@ body {
   }
 
   .options {
-    width: 100%;
+    width: 81%;
+    margin-left: 10%;
     height: 150px;
-    background-color: rgb(32, 32, 32);
-    color: #ffffff;
-    text-align: center;
+    border: 1px solid;
     font-family: Raleway;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    font-size: 150%;
   }
 
   .call {
+    width: 30%;
     display: inline-block;
+    float: left;
+    margin-left: 1%;
   }
 
   .email {
+    width: 30%;
+    float: left;
+  }
+
+  .chat {
+    width: 30%;
+    float: left;
+  }
+
+  .splitter {
+    width: 4.5%;
+    float: left;
+    margin-top: 0.25%;
   }
 
 /* Id's */
@@ -190,4 +208,25 @@ body {
   margin-left: 10%;
   border: 1px solid;
   font-family: Raleway;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
 }
+
+#topbutton {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  background-color: #ffffff;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  background-image: url('../images/arrow.png');
+}
+
+#topbutton:hover {
+  background-color: rgb(32, 32, 32);
+  background-image: url('../images/arrowhover.png');
+}
+
