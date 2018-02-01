@@ -1,0 +1,193 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+/* Categories */
+
+body {
+    margin: 0px;
+}
+
+#nav {
+    padding: 24px;
+    text-align: center;
+    font-family: Raleway;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Classes */
+
+.link {
+    transition: 0.4s;
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 0 10px;
+    margin: 0 10px;
+  }
+  .link:hover {
+    background-color: #ffffff;
+    color: rgb(32, 32, 32);
+    padding: 24px 10px;
+  }
+
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+
+  .text {
+    background-color: rgb(32, 32, 32);
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+  .picture1 {
+    position: relative;
+    width: 50%;
+  }
+  .picture1:hover .image {
+    opacity: 0.3;
+  }
+  
+  .picture1:hover .middle {
+    opacity: 1;
+  }
+
+
+  .picture2:hover .image {
+    opacity: 0.3;
+  }
+  
+  .picture2:hover .middle {
+    opacity: 1;
+  }
+
+  .picture3:hover .image {
+    opacity: 0.3;
+  }
+  
+  .picture3:hover .middle {
+    opacity: 1;
+  }
+
+  .picture2 {
+    position: relative;
+    width: 50%;
+  }
+
+  .picture3 {
+    position: relative;
+    width: 50%;
+  }
+
+  .product1 {
+      padding-top: 100px;
+      padding-right: 5%;
+      width: 30%;
+      float: left;
+  }
+
+  .product2{
+      padding-top: 100px;
+      padding-right: 5%;
+      width: 30%;
+      float: left;
+  }
+
+  .product3{
+      padding-top: 100px;
+      width: 30%;
+      float: left;
+  }
+
+  .products {
+    width: 90%;
+    height: 500px;
+    border: 1px solid;
+  }
+
+  .paypalbutton:hover {
+    opacity: 0.8;
+  }
+
+  .categories {
+    padding: 50px;
+    height: 300px;
+  }
+
+  .techi {
+    float:left;
+    width: 45%;
+    margin-right: 5%;
+  }
+
+  .billingi {
+    float:left;
+    width: 45%;
+  }
+
+  .prematureq {
+    float:left;
+    width: 45%;
+    margin-right: 5%;
+  }
+  
+  .orderq {
+    float:left;
+    width: 45%;
+  }
+
+  .options {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(32, 32, 32);
+    color: #ffffff;
+    text-align: center;
+    font-family: Raleway;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  }
+
+  .call {
+    display: inline-block;
+  }
+
+  .email {
+  }
+
+/* Id's */
+
+#shop {
+    padding-top: 50px;
+    padding-left: 10%;
+}
+
+#nav {
+    background: rgb(32, 32, 32);
+  }
+
+#canceled {
+    padding-top: 150px;
+}
+
+#faq {
+  width: 81%;
+  margin-top: 50px;
+  margin-left: 10%;
+  border: 1px solid;
+  font-family: Raleway;
+}
